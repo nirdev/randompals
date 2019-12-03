@@ -17,8 +17,6 @@ while len(random_bits_string) >= 32:
 bit32_random_array.append(bin(int(random_bits_string,2)))
 
 print(bit32_random_array)
-# print(len(bit32_random_array[0]))
-# print(len(bit32_random_array))
 
 rc = RandCrack()
 for i in range(624):
@@ -28,40 +26,3 @@ for i in range(624):
 
 bit32_random_array = list(filter(None,bit32_random_array))
 print(bit32_random_array)
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-
-
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-
-
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
-
-print("Predict ","{0:b}".format(rc.predict_randrange(4294967294)))
-print("Random ",bin(int(random.randrange(4294967294))))
